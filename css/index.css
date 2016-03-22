@@ -1,0 +1,346 @@
+html,
+body {
+  max-width: 750px;
+  margin: 0 auto 1000px;
+}
+/* *********** 头部轮播图 **************** */
+.swiper-container {
+  width: 100%;
+  max-width: 750px;
+}
+.swiper-slide {
+  display: block;
+  width: 100%;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom: 5px;
+  width: 100%;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 1px 2px #555 inset;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: red;
+}
+/* *********** 头部轮播图 **************** */
+.nav-list li {
+  float: left;
+  width: 25%;
+  padding: 12px 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  border-left: 1px solid #ededed;
+}
+.nav-list li:nth-child(4n+1) {
+  border-left: none;
+}
+.nav-list .icon-1 a:before {
+  background-color: #ff565b;
+  background-position: center 5px;
+}
+.nav-list .icon-2 a:before {
+  background-color: #fd8e35;
+  background-position: center -48px;
+}
+.nav-list .icon-3 a:before {
+  background-color: #f5c132;
+  background-position: center -103px;
+}
+.nav-list .icon-4 a:before {
+  background-color: #6cc143;
+  background-position: center -158px;
+}
+.nav-list .icon-5 a:before {
+  background-color: #7b7ad7;
+  background-position: center -213px;
+}
+.nav-list .icon-6 a:before {
+  background-color: #fe8a66;
+  background-position: center -267px;
+}
+.nav-list .icon-7 a:before {
+  background-color: #42bde8;
+  background-position: center -320px;
+}
+.nav-list .icon-8 a:before {
+  background-color: #01d1d1;
+  background-position: center -375px;
+}
+.nav-list a {
+  display: inline-block;
+  min-width: 64px;
+  color: #333333;
+  font-size: 1rem;
+}
+.nav-list a:before {
+  content: "";
+  display: block;
+  border-radius: 4px;
+  width: 36px;
+  margin: 0 auto 9px;
+  height: 36px;
+  background: #cccccc url(../img/icon.png) no-repeat;
+  background-size: 50px 1000px;
+}
+/***************** 装修效果图 begin *****************/
+.p-title {
+  font-size: 1.4rem;
+  color: #333333;
+  font-weight: bold;
+  padding-left: 4%;
+  height: 38px;
+  line-height: 38px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ededed;
+}
+.recommend-list {
+  width: 93.75%;
+  margin: 0 auto;
+}
+.recommend-list li {
+  float: left;
+  width: 48%;
+}
+.recommend-list li:nth-child(2) {
+  margin-right: 4%;
+}
+.recommend-list li:first-child {
+  float: none;
+  width: 100%;
+  margin-bottom: 4%;
+}
+.recommend-list a {
+  display: block;
+  position: relative;
+}
+.recommend-list a span {
+  position: absolute;
+  padding: 4px 6px 4px 21px;
+  right: 10px;
+  bottom: 10px;
+  background: rgba(255, 255, 255, 0.6) url(../img/icon_heart.jpg) no-repeat;
+  background-size: 12px 10px;
+  background-position: 5px center;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #666666;
+}
+.style-list {
+  width: 93.75%;
+  margin: 0 auto;
+}
+.style-list li {
+  margin-left: -2%;
+  padding: 15px 0;
+}
+.style-list li:first-child {
+  border-bottom: 1px dotted #ededed;
+}
+.style-list li:first-child a:first-child {
+  background: #ffc508 url(../img/arrow.jpg) no-repeat;
+  background-size: 15px 50px;
+  background-position: 0 -1px;
+}
+.style-list li:nth-child(2) a:first-child {
+  background: #f94e3c url(../img/arrow.jpg) no-repeat;
+  background-size: 15px 50px;
+  background-position: 0 -31px;
+}
+.style-list a {
+  float: left;
+  width: 18%;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-left: 2%;
+  background-color: #ededed;
+  border-radius: 4px;
+  color: #666666;
+}
+.style-list a:first-child {
+  color: #fff;
+}
+.btn-list {
+  width: 93.75%;
+  margin: 0 auto;
+}
+.btn-list a {
+  float: left;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #ededed;
+  color: #666666;
+  font-size: 1rem;
+}
+.btn-list a:first-child {
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+.btn-list a:first-child:before {
+  content: "";
+  display: inline-block;
+  vertical-align: -3px;
+  margin-right: 6px;
+  width: 15px;
+  height: 15px;
+  background: url(../img/icon_reload.jpg) no-repeat;
+  background-size: 15px 15px;
+}
+.btn-list a:nth-child(2) {
+  border-radius: 0 4px 4px 0;
+  color: #fa4e3e;
+}
+.btn-list a:nth-child(2):after {
+  content: "";
+  display: inline-block;
+  vertical-align: -3px;
+  margin-left: 6px;
+  width: 15px;
+  height: 15px;
+  background: url(../img/icon_arrow.jpg) no-repeat;
+  background-size: 15px 15px;
+}
+.decroration-form {
+  margin-top: 25px;
+  padding: 25px 3.125%;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ededed;
+}
+.decroration-form form {
+  padding: 8px;
+  border: 1px solid #ededed;
+  background-color: #fff;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  border-top-color: #ffb039;
+}
+.decroration-form h2 {
+  font-size: 1.6rem;
+  color: #c3;
+  text-align: center;
+  padding: 10px 0 16px;
+}
+.decroration-form div.input-group:nth-of-type(1) input,
+.decroration-form div.input-group:nth-of-type(1) select {
+  float: left;
+  width: 48%;
+}
+.decroration-form div.input-group:nth-of-type(1) span {
+  position: absolute;
+  left: 40%;
+  color: #666666;
+}
+.decroration-form div.input-group:nth-of-type(1) input {
+  border: 1px solid #ededed;
+  height: 30px;
+  margin-right: 4%;
+  border-radius: 4px;
+}
+.decroration-form input,
+.decroration-form select {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-family: "Microsoft Yahei";
+  font-size: 1.2rem;
+  color: #333333;
+  background-color: transparent;
+}
+.decroration-form .input-group {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.decroration-form .input-group:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  width: 7px;
+  height: 7px;
+  border-top: 1px solid #727272;
+  border-right: 1px solid #727272;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.decroration-form .input-group select {
+  display: block;
+  width: 100%;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  height: 30px;
+}
+.decroration-form .quote-btn {
+  display: block;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 4px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #fa4e3e;
+  font-size: 1.4rem;
+}
+/***************** 装修效果图 end *****************/
+/***************** 装修攻略 begin *****************/
+.stargy-btn-list {
+  width: 93.75%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.stargy-btn-list a {
+  float: left;
+  display: block;
+  width: 48%;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 4px;
+  text-align: center;
+  color: #666666;
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.stargy-btn-list a:nth-child(odd) {
+  margin-right: 4%;
+}
+.stargy-btn-list a:before {
+  content: "";
+  display: inline-block;
+  background: url(../img/icon.png) no-repeat;
+  background-size: 50px 1000px;
+  width: 18px;
+  height: 18px;
+  background-position: center -793px;
+  vertical-align: -5px;
+  margin-right: 8px;
+}
+/***************** 装修攻略 end *****************/
+@media screen and (max-width: 375px) {
+  .style-list a:first-child {
+    color: #fff;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}
