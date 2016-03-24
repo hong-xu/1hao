@@ -1,7 +1,7 @@
 html,
 body {
   max-width: 750px;
-  margin: 0 auto 1000px;
+  margin: 0 auto;
 }
 /* *********** 头部轮播图 **************** */
 .swiper-container {
